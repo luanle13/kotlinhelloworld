@@ -1,10 +1,10 @@
 package vn.rowan.kotlinhelloworld
 
 fun main() {
-    val number1 = 1
-
-    var myAge = 35
-    println(myAge)
-    myAge = 36
-    println(myAge)
+    val constantNumber = 13
+    var mutableString = "Le Thanh Luan"
+    println(constantNumber)
+    println(mutableString)
+    mutableString = "Rowan Lee"
+    println(mutableString)
 }
