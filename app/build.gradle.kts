@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "vn.rowan.kotlinhelloworld"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "vn.rowan.kotlinhelloworld"
