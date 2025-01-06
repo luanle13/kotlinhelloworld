@@ -1,8 +1,8 @@
 package vn.rowan.kotlinhelloworld
 
 fun main() {
-    var myAge : Byte = 24
-    println(myAge)
-    myAge = 25
-    println(myAge)
+    var pi = 3.14
+    println(pi)
+    pi = 3.1415926535
+    println(pi)
 }
