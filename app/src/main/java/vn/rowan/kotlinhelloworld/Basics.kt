@@ -21,11 +21,27 @@ fun main() {
 //    println(!myTrue) // This will be false
     //endregion
     //region Day 2: Char, Unicode and Backslash escape character
-    var myChar = 'a'
-    println(myChar)
-    myChar = '\u00AE'
-    println(myChar)
-    myChar = '\\'
-    println(myChar)
+//    var myChar = 'a'
+//    println(myChar)
+//    myChar = '\u00AE'
+//    println(myChar)
+//    myChar = '\\'
+//    println(myChar)
+    //endregion
+    //region Day 2: Strings
+//    var name = "Luan"
+//    println(name)
+//    name = "Rowan"
+//    println(name)
+//    name = "Very long paragraphs can be stored inside of string"
+//    println(name)
+//    println(name.lowercase())
+//    println(name.uppercase())
+//    println(name + " Luan")
+//    val firstName = "Luan"
+//    val lastName = "Le"
+//    println(firstName + " " + lastName)
+//    println(firstName + "\n " + lastName)
+//    println(firstName + "\t " + lastName)
     //endregion
 }
