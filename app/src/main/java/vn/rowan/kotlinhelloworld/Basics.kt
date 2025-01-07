@@ -1,15 +1,15 @@
 package vn.rowan.kotlinhelloworld
 
 fun main() {
-//    // Day 2: Booleans true false negation
+    // region Day 2: Booleans true false negation
 //    val myTrue: Boolean = true
 //    val myFalse: Boolean = false
 //
 //    println(myTrue || myFalse)
 //    println(myTrue && myFalse)
 //    println(!myTrue)
-
-//    // Quiz 4: Coding Exercise - Understanding Booleans in Kotlin
+    // endregion
+    //region Quiz 4: Coding Exercise - Understanding Booleans in Kotlin
 //    // Step 1: Declare Boolean variables
 //    val myTrue: Boolean = true
 //    val myFalse: Boolean = false
@@ -19,6 +19,13 @@ fun main() {
 //    println(myTrue && myFalse) // This will be false
 //    // Step 4: Logical NOT Operation
 //    println(!myTrue) // This will be false
-
-
+    //endregion
+    //region Day 2: Char, Unicode and Backslash escape character
+    var myChar = 'a'
+    println(myChar)
+    myChar = '\u00AE'
+    println(myChar)
+    myChar = '\\'
+    println(myChar)
+    //endregion
 }
