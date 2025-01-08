@@ -45,7 +45,21 @@ fun main() {
 //    println(firstName + "\t " + lastName)
     //endregion
     //region Day 2: If Else Statements
-    var age : Byte = 24
+//    var age : Byte = 24
+//    //region Comparison operators
+//    // greater than >
+//    // lower than <
+//    // greater equal >=
+//    // lower equal <=
+//    // equal ==
+//    //endregion
+//    if(age >= 18) {
+//        println("You can go into the club.")
+//    } else {
+//        println("You are too young to go into the club.")
+//    }
+    //endregion
+    //region Day 2: ReadIn and toInt to convert strings into int variables
     //region Comparison operators
     // greater than >
     // lower than <
@@ -53,10 +67,16 @@ fun main() {
     // lower equal <=
     // equal ==
     //endregion
+    println("Please enter your age as a whole number")
+    // read what the user has entered into the console
+    val enteredValue = readln()
+    // convert the string variable into an int variable
+    val age = enteredValue.toByte()
     if(age >= 18) {
         println("You can go into the club.")
     } else {
         println("You are too young to go into the club.")
     }
     //endregion
+
 }
