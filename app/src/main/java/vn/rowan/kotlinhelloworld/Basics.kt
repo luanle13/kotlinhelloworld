@@ -44,4 +44,19 @@ fun main() {
 //    println(firstName + "\n " + lastName)
 //    println(firstName + "\t " + lastName)
     //endregion
+    //region Day 2: If Else Statements
+    var age : Byte = 24
+    //region Comparison operators
+    // greater than >
+    // lower than <
+    // greater equal >=
+    // lower equal <=
+    // equal ==
+    //endregion
+    if(age >= 18) {
+        println("You can go into the club.")
+    } else {
+        println("You are too young to go into the club.")
+    }
+    //endregion
 }
