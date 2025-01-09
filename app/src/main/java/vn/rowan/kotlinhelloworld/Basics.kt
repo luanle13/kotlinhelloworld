@@ -60,13 +60,13 @@ fun main() {
 //    }
     //endregion
     //region Day 2: ReadIn and toInt to convert strings into int variables
-//    //region Comparison operators
-//    // greater than >
-//    // lower than <
-//    // greater equal >=
-//    // lower equal <=
-//    // equal ==
-//    //endregion
+    //region Comparison operators
+    // greater than >
+    // lower than <
+    // greater equal >=
+    // lower equal <=
+    // equal ==
+    //endregion
 //    println("Please enter your age as a whole number")
 //    // read what the user has entered into the console
 //    val enteredValue = readln()
@@ -86,17 +86,28 @@ fun main() {
     // lower equal <=
     // equal ==
     //endregion
-    println("Please enter your age as a whole number")
-    // read what the user has entered into the console
-    val enteredValue = readln()
-    // convert the string variable into an int variable
-    val age = enteredValue.toByte()
-    if(age in 18..39) {
-        println("You can go into the club.")
-    } else if(age >= 40) {
-        println("You can not go into the club, please go home.")
+//    println("Please enter your age as a whole number")
+//    // read what the user has entered into the console
+//    val enteredValue = readln()
+//    // convert the string variable into an int variable
+//    val age = enteredValue.toByte()
+//    if(age in 18..39) {
+//        println("You can go into the club.")
+//    } else if(age >= 40) {
+//        println("You can not go into the club, please go home.")
+//    } else {
+//        println("You are too young to go into the club.")
+//    }
+    //endregion
+    //region Quiz 5: Coding Exercise - Exploring "if-else if-else" in Kotlin
+    print("Enter your age as a whole number: ")
+    val age = readln().toInt()
+    if (age in 18..39) {
+        println("You can enter the club.")
+    } else if (age > 40) {
+        println("You cannot go into the club, please go home")
     } else {
-        println("You are too young to go into the club.")
+        println("Age not verified. Please contact support.")
     }
     //endregion
 }
