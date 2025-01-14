@@ -120,11 +120,18 @@ fun main() {
 //    println("Loop is done!")
     //endregion
     //region Day 2: While loops with user input
-    var userInput = readln()
-    while (userInput == "1") {
-        println("While loop executed")
-        userInput = readln()
-    }
-    println("Loop is done!")
+//    var userInput = readln()
+//    while (userInput == "1") {
+//        println("While loop executed")
+//        userInput = readln()
+//    }
+//    println("Loop is done!")
+    //endregion
+    //region Quiz 6: Coding Exercise - String to Integer Conversion and Basic Input Handling in Kotlin
+    println("Please enter a number:")
+    val inputString = readln()
+    val inputNumber = inputString.toInt()
+    val multiplier = 5
+    println("Result of operation is: ${inputNumber * multiplier}")
     //endregion
 }
