@@ -111,11 +111,19 @@ fun main() {
 //    }
     //endregion
     //region Day 2: While loops with counters
-    var count = 0
-    while (count < 3) {
-        // so long this content will be executed
-        println("Count is $count")
-        count++ // same as count = count + 1
+//    var count = 0
+//    while (count < 3) {
+//        // so long this content will be executed
+//        println("Count is $count")
+//        count++ // same as count = count + 1
+//    }
+//    println("Loop is done!")
+    //endregion
+    //region Day 2: While loops with user input
+    var userInput = readln()
+    while (userInput == "1") {
+        println("While loop executed")
+        userInput = readln()
     }
     println("Loop is done!")
     //endregion
