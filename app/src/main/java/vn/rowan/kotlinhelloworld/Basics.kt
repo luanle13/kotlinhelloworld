@@ -135,17 +135,23 @@ fun main() {
 //    println("Result of operation is: ${inputNumber * multiplier}")
     //endregion
     //region Day 3: Amy and her Coffee Function
-    makeCoffee()
-    makeCoffee()
-    makeCoffee()
+//    makeCoffee()
+//    makeCoffee()
+//    makeCoffee()
+    //endregion
+    //region Day 3: Adding Sugar - Functions with Parameters
+    makeCoffee(1)
+    makeCoffee(3)
+    makeCoffee(30)
     //endregion
 }
 
 // Define function
-fun makeCoffee() {
+fun makeCoffee(sugarCount: Int) {
     println("Buy beans")
     println("Grind beans")
     println("Heat water to 90C")
     println("Add water")
     println("Push hot water through the grinded beans")
+    println("Coffee with $sugarCount spoons of sugar")
 }
