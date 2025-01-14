@@ -128,10 +128,24 @@ fun main() {
 //    println("Loop is done!")
     //endregion
     //region Quiz 6: Coding Exercise - String to Integer Conversion and Basic Input Handling in Kotlin
-    println("Please enter a number:")
-    val inputString = readln()
-    val inputNumber = inputString.toInt()
-    val multiplier = 5
-    println("Result of operation is: ${inputNumber * multiplier}")
+//    println("Please enter a number:")
+//    val inputString = readln()
+//    val inputNumber = inputString.toInt()
+//    val multiplier = 5
+//    println("Result of operation is: ${inputNumber * multiplier}")
     //endregion
+    //region Day 3: Amy and her Coffee Function
+    makeCoffee()
+    makeCoffee()
+    makeCoffee()
+    //endregion
+}
+
+// Define function
+fun makeCoffee() {
+    println("Buy beans")
+    println("Grind beans")
+    println("Heat water to 90C")
+    println("Add water")
+    println("Push hot water through the grinded beans")
 }
