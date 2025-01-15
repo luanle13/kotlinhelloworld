@@ -229,11 +229,11 @@ package vn.rowan.kotlinhelloworld
 //region Quiz 9: Coding Exercise - Enhancing the Coffee Machine in Kotlin
 // Define function
 fun main() {
-    makeCoffee(1, "Luan")
-    makeCoffee(3, "Luan")
-    makeCoffee(30, "Luan")
-    makeCoffee(-1, "Luan")
-    makeCoffee(0, "Luan")
+    println("Who is this coffee for?")
+    val name = readln()
+    println("How many spoons of sugar do you want?")
+    val sugarCount = readln().toInt()
+    makeCoffee(sugarCount, name)
 }
 
 fun makeCoffee(sugarCount: Int, name: String) {
