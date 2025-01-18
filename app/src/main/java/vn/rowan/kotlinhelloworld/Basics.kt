@@ -227,28 +227,55 @@ package vn.rowan.kotlinhelloworld
 //endregion
 
 //region Quiz 9: Coding Exercise - Enhancing the Coffee Machine in Kotlin
-// Define function
-fun main() {
-    println("Who is this coffee for?")
-    val name = readln()
-    println("How many spoons of sugar do you want?")
-    val sugarCount = readln().toInt()
-    makeCoffee(sugarCount, name)
-}
+//fun main() {
+//    println("Who is this coffee for?")
+//    val name = readln()
+//    println("How many spoons of sugar do you want?")
+//    val sugarCount = readln().toInt()
+//    makeCoffee(sugarCount, name)
+//}
+//
+//fun makeCoffee(sugarCount: Int, name: String) {
+//    println("Buy beans")
+//    println("Grind beans")
+//    println("Heat water to 90C")
+//    println("Add water")
+//    println("Push hot water through the grinded beans")
+//
+//    if (sugarCount == 1) {
+//        println("Coffee with 1 spoon of sugar for $name")
+//    } else if (sugarCount > 1) {
+//        println("Coffee with $sugarCount spoons of sugar for $name")
+//    } else {
+//        println("Coffee with no sugar for $name")
+//    }
+//}
+//endregion
 
-fun makeCoffee(sugarCount: Int, name: String) {
-    println("Buy beans")
-    println("Grind beans")
-    println("Heat water to 90C")
-    println("Add water")
-    println("Push hot water through the grinded beans")
-
-    if (sugarCount == 1) {
-        println("Coffee with 1 spoon of sugar for $name")
-    } else if (sugarCount > 1) {
-        println("Coffee with $sugarCount spoons of sugar for $name")
-    } else {
-        println("Coffee with no sugar for $name")
-    }
-}
+//region Day 3: Functions that return something
+//fun main() {
+//    var myResult = add(5, 10)
+//    println(myResult)
+//}
+//
+//fun add(num1: Int, num2: Int): Int {
+//    val result = num1 + num2
+//    return result
+//}
+//
+//fun askCoffeeDetails(sugarCount: Int, name: String) {
+//    println("Buy beans")
+//    println("Grind beans")
+//    println("Heat water to 90C")
+//    println("Add water")
+//    println("Push hot water through the grinded beans")
+//
+//    if (sugarCount == 1) {
+//        println("Coffee with 1 spoon of sugar for $name")
+//    } else if (sugarCount > 1) {
+//        println("Coffee with $sugarCount spoons of sugar for $name")
+//    } else {
+//        println("Coffee with no sugar for $name")
+//    }
+//}
 //endregion
