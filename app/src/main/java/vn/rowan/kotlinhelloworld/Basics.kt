@@ -281,16 +281,39 @@ package vn.rowan.kotlinhelloworld
 //endregion
 
 //region Quiz 10: Coding Exercise - User Input Arithmetic in Kotlin
+//fun main() {
+//    println("Please enter the first number: ")
+//    val firstNumber: Int = readln().toInt()
+//    println("Please enter the second number: ")
+//    val secondNumber: Int = readln().toInt()
+//    val result = add(firstNumber, secondNumber)
+//    println("The result of $firstNumber + $secondNumber is: $result")
+//}
+//
+//fun add(firstNumber: Int, secondNumber: Int): Int {
+//    return firstNumber + secondNumber
+//}
+//endregion
+
+//region Day 3: More about return types
 fun main() {
     println("Please enter the first number: ")
-    val firstNumber: Int = readln().toInt()
+    val firstNumber: Double = readln().toDouble()
     println("Please enter the second number: ")
-    val secondNumber: Int = readln().toInt()
-    val result = add(firstNumber, secondNumber)
-    println("The result of $firstNumber + $secondNumber is: $result")
+    val secondNumber: Double = readln().toDouble()
+    val addResult = add(firstNumber, secondNumber)
+    println("The result of $firstNumber + $secondNumber is: $addResult")
+    val divideResult = divide(firstNumber, secondNumber)
+    println("The result of $firstNumber / $secondNumber is: $divideResult")
+
 }
 
-fun add(firstNumber: Int, secondNumber: Int): Int {
+fun divide(num1: Double, num2: Double): Double {
+    val result = num1 / num2
+    return result.toDouble()
+}
+
+fun add(firstNumber: Double, secondNumber: Double): Double {
     return firstNumber + secondNumber
 }
 //endregion
