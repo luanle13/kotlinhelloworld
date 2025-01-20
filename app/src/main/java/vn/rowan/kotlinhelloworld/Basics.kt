@@ -296,24 +296,54 @@ package vn.rowan.kotlinhelloworld
 //endregion
 
 //region Day 3: More about return types
-fun main() {
-    println("Please enter the first number: ")
-    val firstNumber: Double = readln().toDouble()
-    println("Please enter the second number: ")
-    val secondNumber: Double = readln().toDouble()
-    val addResult = add(firstNumber, secondNumber)
-    println("The result of $firstNumber + $secondNumber is: $addResult")
-    val divideResult = divide(firstNumber, secondNumber)
-    println("The result of $firstNumber / $secondNumber is: $divideResult")
+//fun main() {
+//    println("Please enter the first number: ")
+//    val firstNumber: Double = readln().toDouble()
+//    println("Please enter the second number: ")
+//    val secondNumber: Double = readln().toDouble()
+//    val addResult = add(firstNumber, secondNumber)
+//    println("The result of $firstNumber + $secondNumber is: $addResult")
+//    val divideResult = divide(firstNumber, secondNumber)
+//    println("The result of $firstNumber / $secondNumber is: $divideResult")
+//
+//}
+//
+//fun divide(num1: Double, num2: Double): Double {
+//    val result = num1 / num2
+//    return result.toDouble()
+//}
+//
+//fun add(firstNumber: Double, secondNumber: Double): Double {
+//    return firstNumber + secondNumber
+//}
+//endregion
 
-}
-
-fun divide(num1: Double, num2: Double): Double {
-    val result = num1 / num2
-    return result.toDouble()
-}
-
-fun add(firstNumber: Double, secondNumber: Double): Double {
-    return firstNumber + secondNumber
-}
+//region Day 3: Limitation of Output - Return Types
+//fun main() {
+//
+//}
+//
+//fun askCoffeeDetails() {
+//    println("Who is this coffee for?")
+//    val name = readln()
+//    println("How many spoons of sugar do you want?")
+//    val sugarCount = readln().toInt()
+//    makeCoffee(sugarCount, name)
+//}
+//
+//fun makeCoffee(sugarCount: Int, name: String) {
+//    println("Buy beans")
+//    println("Grind beans")
+//    println("Heat water to 90C")
+//    println("Add water")
+//    println("Push hot water through the grinded beans")
+//
+//    if (sugarCount == 1) {
+//        println("Coffee with 1 spoon of sugar for $name")
+//    } else if (sugarCount > 1) {
+//        println("Coffee with $sugarCount spoons of sugar for $name")
+//    } else {
+//        println("Coffee with no sugar for $name")
+//    }
+//}
 //endregion
