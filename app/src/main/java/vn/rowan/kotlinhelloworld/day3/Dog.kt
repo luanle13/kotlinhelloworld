@@ -1,4 +1,4 @@
-package vn.rowan.kotlinhelloworld
+package vn.rowan.kotlinhelloworld.day3
 
 //region Day 3: Creating our first Class and Object
 //class Dog {

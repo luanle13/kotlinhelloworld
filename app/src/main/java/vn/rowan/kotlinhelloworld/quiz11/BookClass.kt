@@ -1,4 +1,4 @@
-package vn.rowan.kotlinhelloworld
+package vn.rowan.kotlinhelloworld.quiz11
 
 //region Quiz 11: Coding Exercise - Implementing a Kotlin Class with Constructors and Default values
 class Book(
