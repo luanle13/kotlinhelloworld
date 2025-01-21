@@ -347,3 +347,9 @@ package vn.rowan.kotlinhelloworld
 //    }
 //}
 //endregion
+
+//region Day 3: Creating our first Class and Object
+fun main() {
+    var daisy = Dog()
+}
+//endregion
