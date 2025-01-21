@@ -13,13 +13,13 @@ package vn.rowan.kotlinhelloworld
 //endregion
 
 //region Day 3: Understanding Constructors and Default values
-class Dog constructor(val name: String, val breed: String, var age: Int = 0) {
-    init {
-        bark(name)
-    }
-
-    fun bark(name: String) {
-        println("$name says Woof Woof")
-    }
-}
+//class Dog constructor(val name: String, val breed: String, var age: Int = 0) {
+//    init {
+//        bark(name)
+//    }
+//
+//    fun bark(name: String) {
+//        println("$name says Woof Woof")
+//    }
+//}
 //endregion

@@ -355,8 +355,22 @@ package vn.rowan.kotlinhelloworld
 //endregion
 
 //region Day 3: Understanding Constructors and Default values
+//fun main() {
+//    var daisy = Dog("Daisy", "Dwarf poodle", 1)
+//    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
+//}
+//endregion
+
+//region Quiz 11: Coding Exercise - Implementing a Kotlin Class with Constructors and Default values
 fun main() {
-    var daisy = Dog("Daisy", "Dwarf poodle", 1)
-    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
+    var myBook = Book()
+    println(myBook.title)
+    println(myBook.author)
+    println(myBook.yearPublished)
+
+    var customBook = Book("The Alchemist", "Paulo Coelho", 1988)
+    println(customBook.title)
+    println(customBook.author)
+    println(customBook.yearPublished)
 }
 //endregion
