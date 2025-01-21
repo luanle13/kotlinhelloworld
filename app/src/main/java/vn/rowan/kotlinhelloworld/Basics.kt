@@ -349,7 +349,14 @@ package vn.rowan.kotlinhelloworld
 //endregion
 
 //region Day 3: Creating our first Class and Object
+//fun main() {
+//    var daisy = Dog()
+//}
+//endregion
+
+//region Day 3: Understanding Constructors and Default values
 fun main() {
-    var daisy = Dog()
+    var daisy = Dog("Daisy", "Dwarf poodle", 1)
+    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
 }
 //endregion
