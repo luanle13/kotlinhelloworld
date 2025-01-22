@@ -131,3 +131,13 @@ package vn.rowan.kotlinhelloworld.day3
 //    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
 //}
 //endregion
+
+//region Day 3: Accessing and Changing Properties
+//fun main() {
+//    var daisy = Dog("Daisy", "Dwarf poodle", 1)
+//    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
+//    println("A year has passed!")
+//    daisy.age = 2
+//    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
+//}
+//endregion
