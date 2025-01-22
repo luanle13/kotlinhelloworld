@@ -141,3 +141,41 @@ package vn.rowan.kotlinhelloworld.day3
 //    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
 //}
 //endregion
+
+//region Day 3: Data Classes and Coffee
+data class CoffeeDetails(
+    val sugarCount: Int,
+    val name: String,
+    val size: String,
+    val creamAmount: Int
+)
+
+fun main() {
+    val coffeeForLuan = CoffeeDetails(0, "Luan", "M", 0)
+    makeCoffee(coffeeForLuan)
+}
+
+fun askCoffeeDetails() {
+    println("Who is this coffee for?")
+    val name = readln()
+    println("How many spoons of sugar do you want?")
+    val sugarCount = readln().toInt()
+//    makeCoffee(sugarCount, name)
+}
+
+fun makeCoffee(coffeeDetails: CoffeeDetails) {
+    println("Buy beans")
+    println("Grind beans")
+    println("Heat water to 90C")
+    println("Add water")
+    println("Push hot water through the grind beans")
+
+    if (coffeeDetails.sugarCount == 1) {
+        println("Coffee with 1 spoon of sugar for ${coffeeDetails.name} and cream: ${coffeeDetails.creamAmount}")
+    } else if (coffeeDetails.sugarCount > 1) {
+        println("Coffee with ${coffeeDetails.sugarCount} spoons of sugar for ${coffeeDetails.name} and cream: ${coffeeDetails.creamAmount}")
+    } else {
+        println("Coffee with no sugar for ${coffeeDetails.name} and cream: ${coffeeDetails.creamAmount}")
+    }
+}
+//endregion
